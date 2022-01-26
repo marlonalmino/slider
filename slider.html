@@ -1,0 +1,28 @@
+<html>
+<header>
+  <title>Slider</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</header>
+
+<body>
+
+  <input type="range" oninput="slider()" min="1" max="100" id="elemento">
+
+  <input type="text" readonly id="showNumber" value="50">
+
+  <br>
+
+  <img class="image" id="pernalonga" src="images/pernalonga.jpg" onclick="choose(1)">
+  <img class="image" id="patolino" src="images/patolino.jpg" onclick="choose(2)">
+  <img class="image" id="pica-pau" src="images/pica-pau.jpg" onclick="choose(3)">
+  <img class="image" id="goku-ssj-1000" src="images/goku-ssj-1000.jpg" onclick="choose(4)">
+  <img class="image" id="zoro-whatsapp" src="images/zoro-whatsapp.jpg" onclick="choose(5)">
+
+  <br>
+
+  <img id="imgGlobal" src="images/pernalonga.jpg">
+
+  <script src="script.js"></script>
+</body>
+
+</html>
